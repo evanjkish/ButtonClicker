@@ -1,0 +1,101 @@
+.header {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.search {
+    width: 350px;
+    height: 35px;
+    border-style: solid;
+    border-color: black;
+}
+.login {
+    width: 60px;
+    height: 35px;
+    font-size: medium;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: cornflowerblue;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 2;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+}
+
+.card1{
+    margin-top: 30px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+}
+.card1col{
+    display: flex;
+    flex-flow: column;
+    width: 180px;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.headtext{
+    font-size: 30pt;
+}
+.head3text{
+    margin-top: -20px;
+}
+.head4text{
+    margin-top: -10px;
+}
+.likebutton{
+    height: 30px;
+    width: 80px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: gold;
+}
+.definition{
+    font-size: larger;
+    width: 250px;
+    margin-left: 30px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    width: 220px;
+    height: 140px;
+}
+.card2text {
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+.add {
+    margin-bottom: 10px;
+    width: 180px;
+    height: 45px;
+    border-style: solid;
+    border-color: black;
+    background-color:  rgb(95, 156, 89);
+    font-size: medium;
+}
